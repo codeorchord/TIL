@@ -4,8 +4,8 @@
 
 ### Custom ###
 env.properties
-src/hibernate/Servers/
-src/hibernate/hibernate-first/target/
+Servers/
+target/
 
 ### Eclipse ###
 .metadata
