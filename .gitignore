@@ -4,6 +4,7 @@
 
 ### Custom ###
 env.properties
+jdbc.properties
 Servers/
 target/
 
