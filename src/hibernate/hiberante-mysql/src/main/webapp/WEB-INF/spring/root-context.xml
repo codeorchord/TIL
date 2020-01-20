@@ -34,7 +34,8 @@
             <props>
                 <prop key="hibernate.dialect">${jdbc.dialect}</prop>
                 <prop key="hibernate.show_sql">true</prop>
-                <prop key="hbm2ddl.auto">update</prop>
+                <prop key="hibernate.hbm2ddl.auto">none</prop>
+                <prop key="hibernate.id.new_generator_mappings">false</prop>
             </props>
         </property>
         
@@ -44,7 +45,7 @@
                 <value>/hibernate/Event.hbm.xml</value>
             </list>
         </property>
-         -->
+        -->
     </bean>
 
     <bean id="transactionManager"
